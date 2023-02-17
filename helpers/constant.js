@@ -29,6 +29,8 @@ const constants={
         SUB_CATEGORY_NOT_CREATED: " Sub Category Not Created !",
         SUB_CATEGORY_DELETED: "Sub Category Deleted Successfully !",
         SUB_CATEGORY_NOT_DELETED: "Sub Category Not Deleted !",
+        SUB_CATEGORY_UPDATED: "Sub Category Updated",
+       SUB_CATEGORY_NOT_UPDATED: "Sub Category Not Updated",
       },
 
       userMessage: {

@@ -1,4 +1,4 @@
-const { defaultServerResponse } = require("../helpers/constant");
+
 const constant=require("../helpers/constant");
 const categoryService=require("../services/categoryServices");
 
@@ -68,7 +68,7 @@ module.exports.deleteCategory=async(req,res)=>{
             response.body=serviceResponse;
             response.status=200;
             response.message=constant.categoryMessage.CATEGORY_UPDATED;
-           
+            response.errors.message=error.message;
         }catch (error) {
             console.log(
               `Something went wrong controller: categoryController: updateCategory\n Error:${error.message}`
